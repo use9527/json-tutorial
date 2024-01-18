@@ -5,7 +5,7 @@
 #define EXPECT(c, ch)       do { assert(*c->json == (ch)); c->json++; } while(0)
 
 typedef struct {
-    const char* json;
+    const char* json; 
 }lept_context;
 
 static void lept_parse_whitespace(lept_context* c) {
